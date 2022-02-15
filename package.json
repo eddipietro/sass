@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "sass scss/origen.scss css/destino.css",
+    "build-css": "sass scss/entrada.scss css/salida.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
